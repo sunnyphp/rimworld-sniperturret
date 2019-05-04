@@ -61,7 +61,7 @@
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>
 		<designationHotKey>Misc5</designationHotKey>
-		<specialDisplayRadius>56</specialDisplayRadius>
+		<specialDisplayRadius>52</specialDisplayRadius>
 		<stealable>false</stealable>
 		<rotatable>true</rotatable>
 		<building>
@@ -122,7 +122,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_SniperTurret</defaultProjectile>
 				<warmupTime>3.0</warmupTime>
-				<range>56</range>
+				<range>52</range>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>SniperRound</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
