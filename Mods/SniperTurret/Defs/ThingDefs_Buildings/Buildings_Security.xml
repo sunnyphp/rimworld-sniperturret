@@ -71,7 +71,6 @@
 			<turretTopGraphicPath>Things/Building/Security/SniperTurretGun</turretTopGraphicPath>
 		</building>
 		<placeWorkers>
-			<li>PlaceWorker_NotUnderRoof</li>
 			<li>PlaceWorker_TurretTop</li>
 		</placeWorkers>
 		<researchPrerequisites>
