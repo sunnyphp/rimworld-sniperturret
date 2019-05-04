@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+	<SniperTurretGun.label>Снайперская турель</SniperTurretGun.label>
+	<SniperTurretGun.description>Турель оснащена модифицированной снайперской винтовкой, которая автоматически стреляет во врагов в радиусе поражения. Взрывается при уничтожении.</SniperTurretGun.description>
+	<Bullet_SniperTurret.label>Боезапас для снайперской турели</Bullet_SniperTurret.label>
+	<Gun_SniperTurret.label>Турель со снайперской винтовкой</Gun_SniperTurret.label>
+	<Gun_SniperTurret.description>Военная снайперская винтовка. Дальнобойная, высокая точность и мощность. Используется для монтажа на автоматической турели.</Gun_SniperTurret.description>
+</LanguageData>

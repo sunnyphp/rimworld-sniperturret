@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Sniper Turret</name>
+	<author>Sunny</author>
+	<url>https://github.com/sunnyphp/rimworld-sniperturret</url>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<description>Adds new security long-shot sniper turret to RimWorld.
+
+Properties:
+ - Big range
+ - Very accurate on any distance
+ - Slow reload, high damage
+ - One build cell
+
+Requirements:
+ - Technology "Sniper Turret" (dependency: "Gun turrets")
+ - Steel: 150
+ - Components: 5
+ - Power consumption: 350 W
+
+Info:
+ - Based on Kilroy232 Extended Turrets Mod (https://steamcommunity.com/sharedfiles/filedetails/?id=754095466)
+ - Open source mod (https://github.com/sunnyphp/rimworld-sniperturret)
+ - Minimal suported game version: 1.0
+ - Localization: English, Russian</description>
+</ModMetaData>

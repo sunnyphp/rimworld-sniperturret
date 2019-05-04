@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>SniperTurretGun</defName>
+		<label>Sniper Turret</label>
+		<thingClass>Building_TurretGun</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Security/SniperTurretBase</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>true</castEdgeShadows>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<uiIconPath>Things/Building/Security/SniperTurretGun_Ico</uiIconPath>
+		<altitudeLayer>Building</altitudeLayer>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>125</MaxHitPoints>
+			<Flammability>0.25</Flammability>
+			<WorkToBuild>2500</WorkToBuild>
+			<Mass>120</Mass>
+			<Beauty>-15</Beauty>
+			<ShootingAccuracyTurret>0.99</ShootingAccuracyTurret>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps Inherit="False">
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>4</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>350</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<description>A turret fitted with modified sniper rifle that automatically fires at nearby and distant enemies. Explodes when damaged.</description>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.4</fillPercent>
+		<hasTooltip>true</hasTooltip>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<Steel>150</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Security</designationCategory>
+		<designationHotKey>Misc5</designationHotKey>
+		<specialDisplayRadius>56</specialDisplayRadius>
+		<stealable>false</stealable>
+		<rotatable>true</rotatable>
+		<building>
+			<ai_combatDangerous>true</ai_combatDangerous>
+			<turretGunDef>Gun_SniperTurret</turretGunDef>
+			<turretBurstCooldownTime>8.0</turretBurstCooldownTime>
+			<turretTopGraphicPath>Things/Building/Security/SniperTurretGun</turretTopGraphicPath>
+		</building>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+			<li>PlaceWorker_TurretTop</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>SniperTurret</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_SniperTurret</defName>
+		<label>Long Range Turret Round</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>25</damageAmountBase>
+			<speed>100</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseHumanGun">
+		<defName>Gun_SniperTurret</defName>
+		<label>Sniper Rifle Turret</label>
+		<menuHidden>true</menuHidden>
+		<description>Military sniper rifle. Long range, great accuracy and power mounted on an auto turret.</description>
+		<graphicData>
+			<texPath>Things/Building/Security/SniperTurretBase</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<tradeability>None</tradeability>
+		<destroyOnDrop>true</destroyOnDrop>
+		<statBases>
+			<AccuracyTouch>1.00</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
+			<AccuracyLong>0.80</AccuracyLong>
+			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+			<Mass>10</Mass>
+		</statBases>
+		<weaponTags>
+			<li>TurretGun</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_SniperTurret</defaultProjectile>
+				<warmupTime>3.0</warmupTime>
+				<range>56</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>SniperRound</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>20</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+</Defs>
