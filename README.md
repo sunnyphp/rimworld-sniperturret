@@ -5,6 +5,10 @@ See details on [Steam Community page](https://steamcommunity.com/sharedfiles/fil
 
 ### Changelog
 
+**30 Jan 2020**
+
+ - Chinese language by [@Endlingsky](https://github.com/Endlingsky) (PR #1) :tada:
+
 **4 Apr 2019**
 
  - Range decreased from 56 to 52 (https://github.com/sunnyphp/rimworld-sniperturret/commit/7a0d606993d5df51ce2c227ac49c2384d68d91c5)
