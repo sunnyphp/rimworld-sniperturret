@@ -68,7 +68,6 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Gun_SniperTurret</turretGunDef>
 			<turretBurstCooldownTime>8.0</turretBurstCooldownTime>
-			<turretTopGraphicPath>Things/Building/Security/SniperTurretGun</turretTopGraphicPath>
 		</building>
 		<placeWorkers>
 			<li>PlaceWorker_TurretTop</li>
@@ -92,13 +91,13 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseHumanGun">
+	<ThingDef ParentName="BaseWeaponTurret">
 		<defName>Gun_SniperTurret</defName>
 		<label>Sniper Rifle Turret</label>
 		<menuHidden>true</menuHidden>
 		<description>Military sniper rifle. Long range, great accuracy and power mounted on an auto turret.</description>
 		<graphicData>
-			<texPath>Things/Building/Security/SniperTurretBase</texPath>
+			<texPath>Things/Building/Security/SniperTurretGun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>

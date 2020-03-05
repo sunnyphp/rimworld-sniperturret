@@ -2,10 +2,11 @@
 
 <ModMetaData>
 	<name>Sniper Turret</name>
+	<packageId>Sunny.Minimod.SniperTurret</packageId>
 	<author>Sunny</author>
 	<url>https://github.com/sunnyphp/rimworld-sniperturret</url>
 	<supportedVersions>
-		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
 	<description>Adds new security long-shot sniper turret to RimWorld.
 
@@ -24,6 +25,6 @@ Requirements:
 Info:
  - Based on Kilroy232 Extended Turrets Mod (https://steamcommunity.com/sharedfiles/filedetails/?id=754095466)
  - Open source mod (https://github.com/sunnyphp/rimworld-sniperturret)
- - Minimal suported game version: 1.0
+ - Minimal suported game version: 1.1
  - Localization: English, Russian, Chinese</description>
 </ModMetaData>

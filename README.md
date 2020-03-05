@@ -5,6 +5,10 @@ See details on [Steam Community page](https://steamcommunity.com/sharedfiles/fil
 
 ### Changelog
 
+**5 Mar 2020**
+
+ - Update mod for game version 1.1 (minimum requirement)
+
 **30 Jan 2020**
 
  - Chinese language by [@Endlingsky](https://github.com/Endlingsky) (PR #1) :tada:
