@@ -5,6 +5,10 @@ See details on [Steam Community page](https://steamcommunity.com/sharedfiles/fil
 
 ### Changelog
 
+**5 Sep 2021**
+
+ - Update mod for game version 1.3
+
 **5 Mar 2020**
 
  - Update mod for game version 1.1 (minimum requirement)

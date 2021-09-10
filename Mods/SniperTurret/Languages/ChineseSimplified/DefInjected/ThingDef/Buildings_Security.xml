@@ -1,17 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <LanguageData>
-
-  <SniperTurretGun.label>维和者狙击步枪炮塔</SniperTurretGun.label>
-  <SniperTurretGun.description>一款装有改装后的名字为维和者的一种狙击步枪的炮塔，可以自动向近处和远处的敌人开火，并且重创敌人，损坏时会爆炸。</SniperTurretGun.description>
-  <SniperTurretGun_Blueprint.label>维和者狙击步枪炮塔 （蓝图）</SniperTurretGun_Blueprint.label>
-  <SniperTurretGun_Blueprint_Install.label>维和者狙击步枪炮塔 （蓝图）</SniperTurretGun_Blueprint_Install.label>
-  <SniperTurretGun_Frame.label>维和者狙击步枪炮塔 （建造中）</SniperTurretGun_Frame.label>
-  <SniperTurretGun_Frame.description>一款装有改装后的名字为维和者的一种狙击步枪的炮塔，可以自动向近处和远处的敌人开火，并且重创敌人，损坏时会爆炸。</SniperTurretGun_Frame.description>
-
-  <Bullet_SniperTurret.label>远程炮塔子弹</Bullet_SniperTurret.label>
-
-  <Gun_SniperTurret.label>狙击步枪炮塔</Gun_SniperTurret.label>
-  <Gun_SniperTurret.description>一种军用狙击步枪。安装在自动炮塔上，射程远，精度高，但是耗电也大.</Gun_SniperTurret.description>
-
-
+	<SniperTurretGun.label>维和者狙击步枪炮塔</SniperTurretGun.label>
+	<SniperTurretGun.description>一款装有改装后的名字为维和者的一种狙击步枪的炮塔，可以自动向近处和远处的敌人开火，并且重创敌人，损坏时会爆炸。</SniperTurretGun.description>
+	<SniperTurretGun_Blueprint.label>维和者狙击步枪炮塔 （蓝图）</SniperTurretGun_Blueprint.label>
+	<SniperTurretGun_Blueprint_Install.label>维和者狙击步枪炮塔 （蓝图）</SniperTurretGun_Blueprint_Install.label>
+	<SniperTurretGun_Frame.label>维和者狙击步枪炮塔 （建造中）</SniperTurretGun_Frame.label>
+	<SniperTurretGun_Frame.description>一款装有改装后的名字为维和者的一种狙击步枪的炮塔，可以自动向近处和远处的敌人开火，并且重创敌人，损坏时会爆炸。</SniperTurretGun_Frame.description>
+	<Bullet_SniperTurret.label>远程炮塔子弹</Bullet_SniperTurret.label>
+	<Gun_SniperTurret.label>狙击步枪炮塔</Gun_SniperTurret.label>
+	<Gun_SniperTurret.description>一种军用狙击步枪。安装在自动炮塔上，射程远，精度高，但是耗电也大.</Gun_SniperTurret.description>
 </LanguageData>
